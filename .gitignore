@@ -1,0 +1,16 @@
+# Rider
+.idea/
+*.sln.iml
+
+# Build
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.vscode/
+
+# Logs
+*.log
