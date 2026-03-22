@@ -4,6 +4,14 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+
+        <PackageId>Andiy4k.Utilities</PackageId>        
+        <Version>1.1.0</Version>
+        <Authors>Andiy4k</Authors>
+        <Description>Console and array utilities for C# projects</Description>
+        <PackageTags>console;array;utilities</PackageTags>
+        <RepositoryUrl>https://github.com/andriy4k07/dotnet-utilities</RepositoryUrl>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     </PropertyGroup>
 
 </Project>
