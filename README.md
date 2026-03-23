@@ -3,9 +3,10 @@
 A personal .NET utility library for typed console I/O, array helpers, and extensions.  
 Published to NuGet and continuously extended.
 <p align="center">
-![NuGet](https://img.shields.io/nuget/v/Andriy4k.Utilities)
-![License](https://img.shields.io/github/license/andriy4k07/dotnet-utilities)
-![.NET](https://img.shields.io/badge/.NET-10.0-purple)
+  <img alt="NuGet" src="https://img.shields.io/nuget/v/Andriy4k.Utilities" />
+  <img alt="Downloads" src="https://img.shields.io/nuget/dt/Andriy4k.Utilities" />
+  <img alt="License" src="https://img.shields.io/github/license/andriy4k07/dotnet-utilities" />
+  <img alt=".NET" src="https://img.shields.io/badge/.NET-10.0-purple" />
 </p>
 ---
 
