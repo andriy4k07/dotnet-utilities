@@ -10,7 +10,7 @@ public static class ConsoleEx
         WriteColor(ConsoleColor.Green, $"{message} \t");
         while (!T.TryParse(Console.ReadLine(), null, out value))
         {
-            WriteColor(ConsoleColor.Red, "НЕПРАВИЛЬНИЙ ТИП ДАНИХ! ");
+            WriteColor(ConsoleColor.Red, "INCORRECT DATA TYPE! ");
             WriteColor(ConsoleColor.Green, $"{message} \t");
         }
         return value;
@@ -21,7 +21,7 @@ public static class ConsoleEx
         WriteColor(ConsoleColor.Green, $"{message} \t");
         while (!char.TryParse(Console.ReadLine(), out input))
         {
-            WriteColor(ConsoleColor.Red, "Введіть один символ! ");
+            WriteColor(ConsoleColor.Red, "Please enter a single character! ");
             WriteColor(ConsoleColor.Green, $"{message} \t");
         }
         return input;
@@ -37,7 +37,7 @@ public static class ConsoleEx
             value = Console.ReadLine();
             if (!string.IsNullOrWhiteSpace(value))
                 break;
-            WriteColor(ConsoleColor.Red, "НЕПРАВИЛЬНИЙ ТИП ДАНИХ! ");
+            WriteColor(ConsoleColor.Red, "INCORRECT DATA TYPE! ");
             WriteColor(ConsoleColor.Green, $"{message} \t");
         }
 
@@ -53,8 +53,8 @@ public static class ConsoleEx
         
         while (!DateTime.TryParseExact(Console.ReadLine(), formats, culture, DateTimeStyles.None, out date))
         {
-            WriteColor(ConsoleColor.Red, "НЕПРАВИЛЬНИЙ ФОРМАТ ДАТИ! ");
-            WriteColor(ConsoleColor.Green, $"Введіть дату у форматі dd.MM.yyyy або dd.MM.yyyy HH:mm \t");
+            WriteColor(ConsoleColor.Red, "INCORRECT DATE FORMAT! ");
+            WriteColor(ConsoleColor.Green, $"Enter the date in the format dd.MM.yyyy or dd.MM.yyyy HH:mm \t");
         }
         return date;
     }
@@ -109,7 +109,7 @@ public static class ArrayHelper
 
         for (int i = 0; i < array.GetLength(0); i++)
         {
-            int number = ConsoleEx.ReadValue<int>($"Введіть {i + 1} елемент масиву: \t");
+            int number = ConsoleEx.ReadValue<int>($"Enter the {i + 1}th element of the array: \t");
             array[i] = number;
         }
         return array;
@@ -121,7 +121,7 @@ public static class ArrayHelper
 
         for (int i = 0; i < array.GetLength(0); i++)
         {
-            string elements = ConsoleEx.ReadString($"Введіть {i + 1} елемент масиву: \t");
+            string elements = ConsoleEx.ReadString($"Enter the {i + 1}th element of the array: \t");
             array[i] = elements;
         }
         return array;
@@ -161,7 +161,7 @@ public static class ArrayExtensions
     {
         for (int i = 0; i < array.Length; i++)
         {
-            array[i] = ConsoleEx.ReadValue<int>($"Введіть {i + 1} елемент масиву:");
+            array[i] = ConsoleEx.ReadValue<int>($"Enter the {i + 1}th element of the array:");
         }
     }
     public static void FillRandom(this int[] array, int minValue, int maxValue, int? seed = null)
