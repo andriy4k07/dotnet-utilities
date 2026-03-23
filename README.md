@@ -2,16 +2,16 @@
 
 A personal .NET utility library for typed console I/O, array helpers, and extensions.  
 Published to NuGet and continuously extended.
-
-![NuGet](https://img.shields.io/nuget/v/Andiy4k.Utilities)
+<p align="center">
+![NuGet](https://img.shields.io/nuget/v/Andriy4k.Utilities)
 ![License](https://img.shields.io/github/license/andriy4k07/dotnet-utilities)
 ![.NET](https://img.shields.io/badge/.NET-10.0-purple)
-
+</p>
 ---
 
 ## Installation
 ```bash
-dotnet add package Andiy4k.Utilities
+dotnet add package Andriy4k.Utilities
 ```
 
 ---
