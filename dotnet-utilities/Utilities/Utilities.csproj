@@ -7,7 +7,7 @@
 
         <PackageId>Andiy4k.Utilities</PackageId>        
         <Version>1.1.0</Version>
-        <Authors>Andiy4k</Authors>
+        <Authors>Andriy4k</Authors>
         <Description>Console and array utilities for C# projects</Description>
         <PackageTags>console;array;utilities</PackageTags>
         <RepositoryUrl>https://github.com/andriy4k07/dotnet-utilities</RepositoryUrl>
