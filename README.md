@@ -85,6 +85,3 @@ matrix.Print2DMatrix();
 ## License
 
 [MIT](LICENSE)
-```
-
----
