@@ -8,6 +8,7 @@ Published to NuGet and continuously extended.
   <img alt="License" src="https://img.shields.io/github/license/andriy4k07/dotnet-utilities" />
   <img alt=".NET" src="https://img.shields.io/badge/.NET-10.0-purple" />
 </p>
+
 ---
 
 ## Installation
