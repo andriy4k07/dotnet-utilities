@@ -5,6 +5,8 @@
 # Build
 bin/
 obj/
+_site/
+api/
 
 # User-specific files
 *.user
