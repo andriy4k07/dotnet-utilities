@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
 
-        <PackageId>Andiy4k.Utilities</PackageId>        
+        <PackageId>Andriy4k.Utilities</PackageId>        
         <Version>1.1.0</Version>
         <Authors>Andriy4k</Authors>
         <Description>Console and array utilities for C# projects</Description>
